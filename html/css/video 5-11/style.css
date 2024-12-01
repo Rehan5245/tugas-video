@@ -1,0 +1,107 @@
+    *{
+        margin: 0px;
+    }
+    .content{
+        margin-top: 2%;
+    }
+    .wrapper{
+        width: 80%;
+        margin: auto;
+    }
+    section{
+        margin-top: 2%;
+    }
+    footer{
+        margin: 3%;
+        text-align: center;
+    }
+    section p{
+        margin-top: 2%;
+    }
+    header img{
+        width: 140px;
+        border: solid 1px black;
+        float: left;
+    }
+    header h1{
+        margin-left: 5%;
+    }
+    nav{
+        clear: both;
+    }
+    nav ul{
+        margin-top:  5% ;
+    }
+    #paragraf{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .huruf{
+        font-size: 1.3rem;
+    }
+    .warna{
+        background: blue;
+    }
+    .bentuk_font{
+        font-style: italic;
+    }
+    .huruf_tebal{
+        font-style: initial;
+    }
+    .text_decoration{
+        text-decoration: none;
+    }
+    ul{
+        font-family: Arial, Helvetica, sans-serif;
+        background: aquamarine;
+        list-style: none;
+        margin: 0px;
+        display: flex;
+        padding-left: 0px;
+    }
+    ul li{
+        background-color: aquamarine;
+        color: rgb(41, 0, 224);
+        display: inline-block;
+        border: 1px blue;
+    
+        padding: 10px ;
+        position: relative; 
+        text-decoration: none;
+    }
+    ul li a{
+        color: rgb(52, 91, 197);
+    }
+    ul li:hover{
+        background: rgb(197, 49, 12);
+        cursor: pointer;
+    }
+    ul li ul {
+        background: orange;
+        visibility: hidden;
+        position: absolute;     
+        margin-top: 0.5rem;
+        display: none;
+        left: 0;
+    }
+    ul li:hover >ul,
+    ul li ul:hover{
+        visibility: visible;
+        display: block;
+    }   
+    ul li ul li {
+        clear: both;
+        width: 100%;
+        border-top: solid red 1px;
+    }
+    footer p{
+        border: none;
+    }
+    @media only screen and (max-width: 600px){
+        body{
+            background-color: blue;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        ul li{
+            background: yellow;
+        }
+    }
